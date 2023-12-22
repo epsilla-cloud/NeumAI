@@ -154,6 +154,22 @@ class WeaviateQueryException(Exception):
     """Raised if querying Weaviate fails"""
     pass
 
+class EpsillaConnectionException(Exception):
+    """Raised if establishing a connection to Epsilla fails"""
+    pass
+
+class EpsillaInsertionException(Exception):
+    """Raised if inserting into Epsilla fails"""
+    pass
+
+class EpsillaIndexInfoException(Exception):
+    """Raised if getting index info from Epsilla fails"""
+    pass
+
+class EpsillaQueryException(Exception):
+    """Raised if querying Epsilla fails"""
+    pass
+
 class WebsiteConnectionException(Exception):
     """Raised if establishing a connection to a website fails"""
     pass
